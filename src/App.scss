@@ -1,0 +1,20 @@
+@import "~bootstrap/scss/bootstrap";
+@import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400;700&display=swap');
+
+body{
+  font-family: $font-work;
+
+  .page-container{
+    text-align: center;
+    padding: 5%;
+
+    h1{
+      font-family: $font-railway;
+    }
+
+
+  }
+}
+

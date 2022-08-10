@@ -1,0 +1,24 @@
+@import "./src/variables";
+.navigation{
+  font-family: $font-railway;
+
+.link-container{
+  display: flex;
+  justify-content: space-between;
+
+  .nav-brand{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+.link-item-container{
+  margin: 0 10%;
+
+  .link-item{
+    width: 150px;
+    margin: 0 1ou7870px;
+
+  }
+}
+
+}
+}
