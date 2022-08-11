@@ -15,10 +15,10 @@ const Navigation = () => {
           <Nav.Link className="link-item" as={NavLink} to="/">
             Home
           </Nav.Link>
-          <Nav.Link className="link-item" as={NavLink} to="/">
+          <Nav.Link className="link-item" as={NavLink} to="/category">
             Category
           </Nav.Link>
-          <Nav.Link className="link-item" as={NavLink} to="/">
+          <Nav.Link className="link-item" as={NavLink} to="/search">
             Search Article
           </Nav.Link>
         </Nav>
