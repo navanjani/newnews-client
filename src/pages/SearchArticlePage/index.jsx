@@ -5,7 +5,7 @@ import { BASE_URL } from "../../config/config";
 import ArticleCard from "../../components/ArticleCard";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import SearchComponents from "../../components/SearchComponent";
+import SearchComponent from "../../components/SearchComponent";
 
 const SearchArticlePage = () => {
   const [articles, setArticles] = useState([]);
@@ -28,10 +28,10 @@ const SearchArticlePage = () => {
       <h1>Search Articles</h1>
       <Row>
         <Col>
-          <SearchComponents
+          <SearchComponent />
         </Col>
         <Col>
-          <h5>{articles.length} Articles found</h5>
+          <h4>{articles.length} Articles found</h4>
         </Col>
       </Row>
       {articles

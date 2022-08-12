@@ -3,7 +3,7 @@ import Form from "react-bootstrap/Form";
 
 const SearchComponent = () => {
   return (
-    <Container>
+    <Container className="search-container">
       <Form className="d-flex">
         <Form.Control
           type="search"
